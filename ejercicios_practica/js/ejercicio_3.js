@@ -5,9 +5,6 @@
  */
 
 // Ejercicios con funciones
-
-// function generarInvitados()
-
 /*
 Alumno: Crear la función "generarInvitados"
 Esta función no recibe ningún paraḿetro de entrada
@@ -23,4 +20,17 @@ Los tres nombres ingresados se deberán imprimir en consola
 */
 
 // Definir y crear la función antes de esta llamada
+function generarInvitados(){
+    let nom1;
+    let nom2;
+    let nom3;
+    nom1 = prompt('Ingrese nombre del invitado 1')
+    nom2 = prompt('Ingrese nombre del invitado 2')
+    nom3 = prompt('Ingrese nombre del invitado 3')
+    console.log(nom1)
+    console.log(nom2)
+    console.log(nom3)
+}
+
 generarInvitados();
+alert("FIN Ejercicio 3.");

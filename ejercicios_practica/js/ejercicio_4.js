@@ -1,8 +1,5 @@
 "use strict";
 
-/* Inove Coding School
- * Ejercicios con funciones
- */
 
 // Ejercicios con funciones
 
@@ -30,5 +27,24 @@ en consola la lista
 */
 
 // Definir y crear la función antes de esta llamada
+/**
+ * @fileoverview Ejercitación de Funciones
+ * @author       Nacho <nachoe44@gmail.com>
+ * @copyright    ignacioserrano.com.ar
+ */
+function generarInvitados(){
+    let nom1;
+    let nom2;
+    let nom3;
+    let res;
+    nom1 = prompt('Ingrese nombre del invitado 1')
+    nom2 = prompt('Ingrese nombre del invitado 2')
+    nom3 = prompt('Ingrese nombre del invitado 3')
+    res = ("Los nombres de los invitados son: " + nom1 + ", " + nom2 + ", " + nom3)
+    return(res)
+}
+let invitados = '';
 invitados = generarInvitados();
 console.log(`Mis invitados: ${invitados}`)
+
+alert("FIN Ejercicio 4.");
